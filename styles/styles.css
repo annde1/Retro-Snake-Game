@@ -1,0 +1,70 @@
+body {
+  font-family: "Press Start 2P", cursive !important;
+  background-color: #97be5a !important;
+  height: 100vh;
+}
+canvas {
+  border: 2px solid black;
+}
+.game-over {
+  background-color: rgba(29, 29, 29, 0.95);
+  color: white;
+  height: 35rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 5rem;
+}
+.scores {
+  display: flex;
+  justify-content: space-between;
+}
+.message {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+.play-again {
+  height: 2rem;
+  width: 12rem;
+  align-self: center;
+}
+.current-score {
+  margin-left: 2rem;
+}
+.high {
+  margin-right: 2rem;
+}
+.close {
+  background-color: rgba(29, 29, 29, 0.8);
+  color: white;
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.snake-image {
+  height: 70px;
+  width: 70px;
+  align-self: center;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+.container-scores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highscore {
+  margin-left: 5rem;
+}

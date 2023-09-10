@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro Snake</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid game-container">
+      <h1>Snake</h1>
+      <div class="container-scores">
+        <div class="score-div" id="score-div">Score: 0</div>
+        <div class="highscore" id="highscore">Highscore:0</div>
+      </div>
+
+      <canvas width="500" height="500" id="canvas"></canvas>
+
+      <div class="game-over hide" id="game-over">
+        <div class="message">Game over!</div>
+        <div class="scores">
+          <div class="current-score" id="current-score">Your score: 0</div>
+          <div class="high" id="high">Highscore: 0</div>
+        </div>
+        <button class="play-again" id="play-again">Play again</button>
+      </div>
+      <audio src="assets/negative_beeps-6008.mp3" id="game-over-sound"></audio>
+    </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script type="module" src="script/app.js"></script>
+  </body>
+</html>
