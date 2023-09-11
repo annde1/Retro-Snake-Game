@@ -1,5 +1,5 @@
 # Snake Game
-
+Open with live server.
 Snake Game is a classic arcade game where you control a snake that grows in length as it eats food. The objective is to eat as much food as possible without colliding with the walls or yourself.
 
 *Note:** This version of the Snake Game is designed for desktop or laptop use and may not work optimally on mobile devices. For the best gaming experience, we recommend playing on a computer with a keyboard.
