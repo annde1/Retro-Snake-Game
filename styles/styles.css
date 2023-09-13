@@ -17,6 +17,9 @@ canvas {
   position: absolute;
   top: 5rem;
 }
+.snake-heading {
+  margin-top: 5rem;
+}
 .scores {
   display: flex;
   justify-content: space-between;
