@@ -281,8 +281,10 @@ const restartGame = () => {
   frame();
 };
 
-//Event listener to keyup event:
-document.addEventListener("keyup", snake.setDirection.bind(snake)); //binding the this keyword to snake because the this keyword in event handlers points to the element that cause the event
-playAgainBtn.addEventListener("click", restartGame);
-food.generateFood();
-frame();
+window.addEventListener("load", () => {
+  //Event listener to keyup event:
+  document.addEventListener("keyup", snake.setDirection.bind(snake)); //binding the this keyword to snake because the this keyword in event handlers points to the element that cause the event
+  playAgainBtn.addEventListener("click", restartGame);
+  food.generateFood();
+  frame();
+});
